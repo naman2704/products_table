@@ -1,5 +1,4 @@
 export default function ProductRow({ product }) {
-    console.log(product)
     const name = product.stocked ? product.name :
       <span style={{ color: 'red' }}>
         {product.name}
